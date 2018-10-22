@@ -1,0 +1,128 @@
+[
+    {
+        "id": 37,
+        "title": "Chocolate-Glazed Cake Donut",
+        "desc": "How can you improve upon the splendor that is a classic glazed donut? Make it chocolate. That pedigree plus the extra bonus of this guy's cake-y texture makes it seriously difficult to pass by the bajillion locations of Dunkin Donuts we walk by every day.",
+        "imageUrl": "assets/images/donuts/1.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 38,
+        "title": "Glazed Donut",
+        "desc": "The Zeus on the mountaintop of donuts, Dunkin's version of glazed is pretty great. It has a nice distribution of glaze, a fluffy texture, and is not too greasy. We won't call it perfect, but there's a reason this glazed donut is the baseline all other Dunkin donuts are measured against.",
+        "imageUrl": "assets/images/donuts/2.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 39,
+        "title": "Cruller",
+        "desc": "Like funnel cake in donut form, this favorite is often sold out of Dunkin' locations. Perfectly sweet with a great texture, we also love to pull the layers apart to make sure we are getting maximum sugar in every bite.",
+        "imageUrl": "assets/images/donuts/3.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 40,
+        "title": "Sour Cream Donut",
+        "desc": "This was unexpected. In fact, it had us reconsidering our life choices because we clearly hadn't been eating enough sour cream donuts. Cake-y, perfectly frosted and with a unique texture, consider us converts.",
+        "imageUrl": "assets/images/donuts/4.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 41,
+        "title": "Powered Sugar Donut",
+        "desc": "Delicious, but it is extra sweet in a good way. Also, warning, if you think the old-fashioned is dry, then inhaling the powder from this isn't going to help our cause in convincing you this belongs higher on the list.",
+        "imageUrl": "assets/images/donuts/5.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 42,
+        "title": "Old-Fashioned Donut",
+        "desc": "This donut is begging for a dunk, but despite any built-in dryness, it's still pretty damn tasty. It reminds us of visits to the donut shop when we were kids, and the warm memories are probably affecting the taste.",
+        "imageUrl": "assets/images/donuts/6.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 43,
+        "title": "Chocolate-Frosted Donut",
+        "desc": "Definitely the best of the frosted bunch, and how could it not be? The chocolate tastes legit and the sprinkles add the perfect amount of fun.",
+        "imageUrl": "assets/images/donuts/7.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 44,
+        "title": "Coconut Donut",
+        "desc": "Two bites in some of us were like, calm down coconut, but everyone else without a personal vendetta against the flavor raved about this admittedly pretty option.",
+        "imageUrl": "assets/images/donuts/8.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 45,
+        "title": "Boston Kreme Pie Donut",
+        "desc": "There was one vocal hater of this donut, but most of us thought this was the best of the filled-donut category. It definitely gives you the chocolate-custardy flavor of the classic Beantown dessert.",
+        "imageUrl": "assets/images/donuts/9.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 46,
+        "title": "Vanilla-Frosted Donut",
+        "desc": "This colorful donut is nothing spectacular, but definitely gets the job done.",
+        "imageUrl": "assets/images/donuts/10.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 47,
+        "title": "Bavarian Kreme-Filled Donut",
+        "desc": "We had low expectations for this one, but surprisingly it was inoffensive—not great, not terrible, mediocre to its cream-filled core.",
+        "imageUrl": "assets/images/donuts/11.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 48,
+        "title": "Chocolate Kreme-Filled Donut",
+        "desc": "One taster said this reminded her of chocolate frosting from a can, which we don't necessarily think is totally a bad thing.",
+        "imageUrl": "assets/images/donuts/12.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 49,
+        "title": "Blueberry Donut",
+        "desc": "While one of our tasters proclaimed this to be her absolute favorite, the rest of us just couldn't get past the sweetness explosion. It's like they dipped already sweet blueberries into a sugar bath and then baked them into a sugar donut.",
+        "imageUrl": "assets/images/donuts/13.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 50,
+        "title": "Apple-Crumb Donut",
+        "desc": "Dunkin definitely nailed the apple flavor in this, though it's more \"gas station apple pie\" than homemade. Plus, the \"crumb\" topping is a little weird, which is not the adjective we feel they were going for.",
+        "imageUrl": "assets/images/donuts/14.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 51,
+        "title": "Marble-Frosted Donut",
+        "desc": "A little chocolate, a little vanilla—a whole lotta sweet.",
+        "imageUrl": "assets/images/donuts/15.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 52,
+        "title": "Jelly Donut",
+        "desc": "One taster remarked that the jelly in this confection tasted like a pudding cup. With glops of fake-tasting jelly spilling out, we're confident that was not a compliment.",
+        "imageUrl": "assets/images/donuts/16.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 53,
+        "title": "Cinnamon-Sugar Donut",
+        "desc": "While a great idea in theory, the ratio of cinnamon to sugar was way off here. This baby was overpowered by pure cinnamon, and NOT in a good way.",
+        "imageUrl": "assets/images/donuts/17.jpg",
+        "type": "donut"
+    },
+	{
+        "id": 54,
+        "title": "BStrawberry-Frosted Donut",
+        "desc": "This was way too sweet, and had an incredibly artificial-tasting strawberry flavor, making it the donut the loser of the \"classic\" donuts. Though, it must be said, the worst Dunkin' donut is better than no donut at all.",
+        "imageUrl": "assets/images/donuts/18.jpg",
+        "type": "donut"
+    }
+]

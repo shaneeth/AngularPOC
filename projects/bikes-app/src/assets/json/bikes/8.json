@@ -1,0 +1,79 @@
+[
+    {
+        "id": 8,
+        "title": "MV Agusta F4 1000R",
+        "desc": "MV Augusta F4 1000 R is the second series of F4 1000 motorcycle from Italian manufacturer Agusta. It is a limited edition superbike from the company. This super bike has 1000cc, 16 radical valves liquid cooled engine. This motorcycle can produce a maximum power of 174 HP and max torque of 115 Nm @10000 rpm. MV Augusta F4 1000 R can reach 0-100 kmph in 3.1 seconds, and its top speed is 184 miles per hour.",
+        "imageUrl": "assets/images/bikes/8.jpg",
+        "type": "bike"
+    },
+    {
+        "id": 7,
+        "title": "Yamaha YZF  R1",
+        "desc": "YZF R1 is the most impressive motorcycle from Japanese manufacturer Yamaha. The first motorcycle from famous R1 series came out in 1998. Now, 2017 edition Yamaha R1 officially unveiled. The new 2017 YZF R1 features 998 cc, liquid-cooled, 16-valve, DOHC, in-line-four-cylinder, engine. It produces a maximum power of 200 @13500 rpm. The top speed of new Yamaha YZF R1 recorded at 186 miles per hour.",
+        "imageUrl": "assets/images/bikes/7.jpg",
+        "type": "bike"
+    },
+    {
+        "id": 6,
+        "title": "Honda CBR1100XX Super Blackbird",
+        "desc": "Honda CBR1100XX is the fastest sports tourer motorcycle from Honda till now. This series manufactured between 1996 and 2007. In 1997, Honda CBR1100XX  held the title of the fastest production motorcycle by defeating the legendary Kawasaki ZX-11. CBR1100XX can hit a top speed of 190 miles per hour with a powerful 152 hp,1137 cc engine. The dual counter balancer shaft provides exceptional smoothness for this superbike.",
+        "imageUrl": "assets/images/bikes/6.jpg",
+        "type": "bike"
+    },
+    {
+        "id": 5,
+        "title": "Suzuki Hayabusa",
+        "desc": "Hayabusa is named after the Japanese name of Peregrine Falcon, the fastest bird in the world which flies at a speed of 203 mph. At a top speed of 194 miles per hour, the Suzuki Hayabusa could even reach close to Peregrine falcon. Hayabusa is the fastest superbike from Suzuki. This ultimate superbike features a 1397 cc four-cylinder 16 valves, liquid cooled engine that produce the power of 197HP@6750 rpm.",
+        "imageUrl": "assets/images/bikes/5.jpg",
+        "type": "bike"
+    },
+    {
+        "id": 4,
+        "title": "Kawasaki Ninja ZX-14R",
+        "desc": "At the top speed of 208.1 mph, Kawasaki Ninja ZX-14R is the second fastest production motorcycle till date. This super machine could cross 0 to 100 kmph in just 2.7 seconds. Ninja ZX-14R features a 1441 cc four valve liquid cooled engine. Kawasaki Ninja ZX-14R can produce a maximum power of 197.3 Bhp@ 10,000 rpm. ",
+        "imageUrl": "assets/images/bikes/4.jpg",
+        "type": "bike"
+    },
+    {
+        "id": 3,
+        "title": "MTT Turbine Superbike Y2K",
+        "desc": "A non-production motorcycle Marine Turbine Technologies which is recognized as ‘the most powerful production motorcycle’ by Guinness book of world records. To be specific, Turbine Superbike Y2K is a wheel-driven motorcycle with a turboshaft engine that manufactured between 2000 and 2005. This motorcycle has been designed to extract the heat energy from the exhaust and convert it into output power. It features Rolls-Royce 250-C18 turboshaft engine that produces a maximum power of 320 HP @ 52000 rpm. The top speed of Y2K superbike has been recorded at 227 miles per hour.",
+        "imageUrl": "assets/images/bikes/3.jpg",
+        "type": "bike"
+    },
+    {
+        "id": 2,
+        "title": "Kawasaki Ninja H2R",
+        "desc": "The hyper sports Kawasaki Ninja H2R is the fastest production superbike till date. It’s a track only motorcycle. At whopping 300 H.P power, the supercharged Ninja H2R can hit over 249 miles per hour. This unbelievably powerful machine features 998 cc supercharged DOHC inline-4 engine.",
+        "imageUrl": "assets/images/bikes/2.jpg",
+        "type": "bike"
+    },
+    {
+        "id": 1,
+        "title": "Dodge Tomahawk",
+        "desc": "At the top speed of 420 mph, the Dodge Tomahawk is the world’s fastest motorcycle ever produced. Dodge unveiled this ultimate superbike in 2003. According to the reports, only 9 of this motorcycle has been sold yet. Dodge Tomahawk features 8.3 liters, V-10 SRT 10 Dodge Viper engine. It can produce a maximum power of 500 HP. Unlike other superbikes, Dodge Tomahawk has four wheels – two front wheels and two rear wheels. Surprisingly, Tomahawk could cross 0 to 60 mile in just 1.5 seconds.",
+        "imageUrl": "assets/images/bikes/1.jpg",
+        "type": "bike"
+    },
+	{
+        "id": 9,
+        "title": "Aprilia RSV 1000R Mille",
+        "desc": "Aprilia RSV 1000R Mille is the fastest superbike from Aprilia company. This motorcycle has a 998cc V-twin engine, produce 141.13 hp @ 10000 rpm. RSV 1000R Mille can cross 0 to 140 kmph in just 10 seconds.",
+        "imageUrl": "assets/images/bikes/9.jpg",
+        "type": "bike"
+    },
+	{
+        "id": 11,
+        "title": "Ducati 1098S",
+        "desc": "Ducati 1098S is one of the fastest and most selling superbikes in the world. The 1099 cc engine with 160 HP power help to attain a maximum speed of 169 miles per hour, with the highest torque to weight ratio.",
+        "imageUrl": "assets/images/bikes/11.jpg",
+        "type": "bike"
+    },
+	{
+        "id": 10,
+        "title": "BMW K 1200S",
+        "desc": "A hyper-sports touring motorcycle from BMW. This motorcycle features an 1157 cc, 16 valve four cylinder engine, which generates power of 164 HP @ 10250 rpm. BMW K 1200s can reach a maximum speed of 174 miles per hour.",
+        "imageUrl": "assets/images/bikes/10.jpg",
+        "type": "bike"
+    }
+]

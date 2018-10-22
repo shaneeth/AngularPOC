@@ -1,0 +1,22 @@
+[
+    {
+        "count": 2290,
+        "title": "Total",
+        "type": "all"
+    },
+    {
+        "count": 2000,
+        "title": "Places",
+        "type": "place"
+    },
+    {
+        "count": 180,
+        "title": "Donuts",
+        "type": "donut"
+    },
+    {
+        "count": 110,
+        "title": "Bikes",
+        "type": "bike"
+    }
+]

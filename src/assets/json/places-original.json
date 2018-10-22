@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "title": "Maroon Bells, USA",
+        "desc": "Located only about 10 miles from Aspen, Colorado, the Maroon Bells are two 14,000-foot peaks in the Elk Mountains that are reflected in crystal-clear Maroon Lake, snuggled in a glacial valley. They are the crown jewels of the Rocky Mountains and by far one of the most photographed scenes in the country.",
+        "imageUrl": "assets/images/places/1.jpg",
+        "type": "place"
+    },
+	{
+        "id": 2,
+        "title": "Grand Canyon, USA",
+        "desc": "The Grand Canyon is a steep, 1-mile-deep, and up to 18-mile-wide gash in the fabric of the world, an immense gorge carved by the Colorado River over the last 5,000 years. Its sheer size is breathtaking and although you can see only a small portion of it even from the best vantage point, its geology and its age fire the imagination. The layers of colorful rock show the passage of time and some of the rocks at the bottom are 1,8 billion years old.",
+        "imageUrl": "assets/images/places/2.jpg",
+        "type": "place"
+    },
+	{
+        "id": 3,
+        "title": "Blue Ridge Mountains, USA",
+        "desc": "Located in the eastern United States and part of the massive Appalachians, the Blue Ridge Mountains stretch from their southernmost end in Georgia all the way northward to Pennsylvania. Between the Blue Ridge and the rest of the Appalachians lies the Great Appalachian Valley. When seen from a distance, the Blue Ridge Mountains appear blue – the trees that release a gas called isoprene are responsible for the bluish color and thus the mountains’ name.",
+        "imageUrl": "assets/images/places/3.jpg",
+        "type": "place"
+    },
+	{
+        "id": 4,
+        "title": "Oia, Santorini, Greece",
+        "desc": "Located on top of a cliff with a spectacular view of the Palea volcano, Nea Kameni, and the island of Thirassia, Oia is the most popular and arguably the most beautiful of all the picturesque villages of the beautiful Greek island of Santorini. Only about 11 km from Fira, on the north of the island, Oia will charm you with its traditional stone houses lining the narrow streets, breathtaking blue-domed churches, and sunbaked verandas.",
+        "imageUrl": "assets/images/places/4.jpg",
+        "type": "place"
+    },
+	{
+        "id": 5,
+        "title": "Plitvice Lakes, Croatia",
+        "desc": "Located about halfway between the Croatian capital Zagreb and Zadar on the coast of the Adriatic Sea, Plitvice Lakes are a magical world of living, moving water surrounded by ancient forests, 16 lakes linked by waterfalls, bridges natural and man-made, and 300 square kilometers of wild beauty full of bears, wolves, boars, and birds.",
+        "imageUrl": "assets/images/places/5.jpg",
+        "type": "place"
+    },
+	{
+        "id": 6,
+        "title": "Salar de Uyuni, Bolivia",
+        "desc": "Salar de Uyuni, located high up in the Andes in southwest Bolivia at an altitude of 11,995 feet, is the largest salt flat in the world, covering over 4,086 square miles. It was once a prehistoric lake that dried up, leaving behind 11,000 square kilometers of otherworldly desert-like landscape made up of sparkling bright white salt, bizarre rock formations, and strange cacti-covered islands. The best spot to observe this surreal landscape is central Incahuasi Island.",
+        "imageUrl": "assets/images/places/6.jpg",
+        "type": "place"
+    },
+	{
+        "id": 7,
+        "title": "Sossusvlei, Namibia",
+        "desc": "Located in the Namibian Namib-Naukluft National Park in the southern part of the vast Namib Desert, Sossusvlei is a salt and clay pan surrounded by immense red dunes. Sossusvlei, loosely translated as “dead-end marsh” and about 60 km from the coast of the Atlantic Ocean, is where the dunes stop the water of the Tsauchab River from flowing any further; if there were any waters that is, something which happens very rarely.",
+        "imageUrl": "assets/images/places/7.jpg",
+        "type": "place"
+    },
+	{
+        "id": 8,
+        "title": "Victoria Falls, Zambia/Zimbabwe",
+        "desc": "Victoria Falls, aptly named Mosi-oa-Tunya – the Smoke that Thunders – by locals is a breathtaking spectacle of incomparable beauty and majesty. The largest water curtain in the world, this enormous waterfall on the Zambezi River on the border between Zambia and Zimbabwe can be heard from 40 kilometers away, as the waters of the normally placid Zambezi river plummet over the edge of the wide basalt cliff into the magnificent gorge 100 meters below.",
+        "imageUrl": "assets/images/places/8.jpg",
+        "type": "place"
+    },
+	{
+        "id": 9,
+        "title": "Moraine Lake, Canada",
+        "desc": "Located in the remote Valley of the Ten Peaks in the Canadian Rockies, Moraine Lake is an emerald beauty, a small, cold glacier-fed jewel surrounded by towering mountains, immense waterfalls, and ancient rock piles, so beautiful it takes breath away. As the glaciers melt, the water in the lake rises and changes its color.",
+        "imageUrl": "assets/images/places/9.jpg",
+        "type": "place"
+    },
+	{
+        "id": 10,
+        "title": "Lake Bled, Slovenia",
+        "desc": "If you glimpse Lake Bled in Slovenia from one of the distant mountaintops, you will be convinced that you are seeing some magical, lost fantasy world of dragons and knights: A vivid emerald green lake with a tiny island in the middle with a church perched on its cliff and an ancient medieval castle clinging to its slopes, hugged on all sides by enormous mountains, snow-topped and covered with dark, green, ancient forests.",
+        "imageUrl": "assets/images/places/10.jpg",
+        "type": "place"
+    },
+	{
+        "id": 11,
+        "title": "Mauna Kea Beach, Hawaii, USA",
+        "desc": "Mauna Kea Beach is stunningly beautiful golden sand beach, one of the most beautiful of all the great beaches on the Big Island of Hawaii. Long and wide, the beach is fabulous for long walks but is even better for swimming as the sand slowly slopes out into the water, so entering it is easy even for children or beginners.",
+        "imageUrl": "assets/images/places/11.jpg",
+        "type": "place"
+    },
+	{
+        "id": 12,
+        "title": "Niagara Falls, USA/Canada",
+        "desc": "Niagara Falls are three massive waterfalls that form the border between Canada and the United States. The falls are located on the Niagara River between Lake Erie and Lake Ontario. The falls were formed at the end of the last ice age when the water from the Great Lakes broke through the Niagara Escarpment on the way to the Atlantic Ocean.",
+        "imageUrl": "assets/images/places/12.jpg",
+        "type": "place"
+    },
+	{
+        "id": 13,
+        "title": "Yellowstone National Park, USA",
+        "desc": "Yellowstone National Park is the oldest national park in the world, consisting of 3,500 square miles of wild, untamed beauty left aside for the enjoyment of humankind, but also for its own protection. It is a recreation area that is spread across several states, from Wyoming to Idaho and Montana, featuring spectacular and diverse natural features – fast alpine rivers, a simmering volcano displaying its power in gushing geysers and hot springs, deep canyons, dense ancient forests, snow-covered mountaintops, breathtaking vistas, and magnificent trails.",
+        "imageUrl": "assets/images/places/13.jpg",
+        "type": "place"
+    },
+	{
+        "id": 14,
+        "title": "Arches National Park, USA",
+        "desc": "At an altitude of over 5,000 feet in the high desert of eastern Utah is Arches National Park, a magical place of red rocks and blue skies. It is what we imagine the surface of Mars to look like, with more than 2,000 rocks in vivid reds and muted buffs precariously piled up on top of each other to form delicate bridges, pinnacles, and arches. The park stretches over 76,679 acres across the Colorado Plateau, with the Colorado River bordering it to the southeast.",
+        "imageUrl": "assets/images/places/14.jpg",
+        "type": "place"
+    },
+	{
+        "id": 15,
+        "title": "Amalfi Coast, Italy",
+        "desc": "The Amalfi Coast is an extravagantly beautiful stretch of rugged coast in Campania, Italy, at the edge of the Sorrentine Peninsula. For about 50 kilometers, the coast looks like something a romantic artist might have conjured – sheer cliffs plunging into the azure sea, tiny golden beaches hidden in secluded coves, pastel sun-washed villages hugging the steep slopes of Mount Ravello, and fragrant orange groves competing for attention with ancient vineyards.",
+        "imageUrl": "assets/images/places/15.jpg",
+        "type": "place"
+    },
+	{
+        "id": 16,
+        "title": "Apenzell, Switzerland",
+        "desc": "Apenzell is the most traditional of all the Swiss regions, a rural world where time has stopped, where culture and tradition are celebrated, and where the charming landscape of rolling green hills full of plump cows is guarded by the 8,200-foot Mount Säntis.",
+        "imageUrl": "assets/images/places/16.jpg",
+        "type": "place"
+    },
+	{
+        "id": 17,
+        "title": "Blue Lagoon, Iceland",
+        "desc": "The Blue Lagoon is a rare geothermal spa in Iceland located between Reykjavik and Keflavik International Airport in the heart of a lava field on the Reykjanes Peninsula. Even for Iceland, which is famous for its strange and curious landscapes, the Blue Lagoon, with its milky-white quiet waters, is a bizarre sight. The lagoon is man-made and fed by water from the Svartsengi, a nearby geothermal power plant.",
+        "imageUrl": "assets/images/places/17.jpg",
+        "type": "place"
+    },
+	{
+        "id": 18,
+        "title": "Bora Bora, French Polynesia",
+        "desc": "Far, far away in the vast South Pacific lies a dreamlike island with a dormant volcano at its heart, covered by thick jungle, surrounded by an emerald necklace of tiny sand-fringed islands that form a turquoise lagoon hiding rich coral reefs and thousands of colorful fish. As you spot this magical place while landing in a small plane from nearby Tahiti, you become aware that you are reaching one of the most beautiful islands in the world, where luxury resorts compete with lavish nature to fulfill your every wish.",
+        "imageUrl": "assets/images/places/18.jpg",
+        "type": "place"
+    },
+	{
+        "id": 19,
+        "title": "Keukenhof Park, Holland",
+        "desc": "Holland is known around the world for its rainbow-hued fields of tulips, especially those located in and around Keukenhof. Millions of bulbs are planted in the park each year—visit in mid-April to see the flowers during their peak season.",
+        "imageUrl": "assets/images/places/19.jpg",
+        "type": "place"
+    },
+	{
+        "id": 20,
+        "title": "Paro Taktsang: Bhutan",
+        "desc": "Paro Taktsang, also known as \"The Tiger's Nest\" monastery, hangs on a cliffside precipice more than 10,000 feet above the ground. If the intricate temple complex doesn't wow you, then the sweeping views of the Paro valley surely will.",
+        "imageUrl": "assets/images/places/20.jpg",
+        "type": "place"
+    }
+]
