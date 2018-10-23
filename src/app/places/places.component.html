@@ -1,3 +1,15 @@
-<p>
-  places works!
-</p>
+<div class="content">
+  <div class="place-card" *ngFor="let place of list">
+    <div class="card mat-elevation-z1" matRipple>
+      <mat-card>
+        <mat-card-header class="header">
+          <mat-card-title class="title">{{ place.title }}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image class="image" [src]="place.imageUrl">
+        <mat-card-content>
+          <p class="desc">{{ place.desc }}</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+:host /deep/ {
+  .mat-card-header-text {
+    margin: 0 !important;
+  }
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  .donut-card {
+    width: 33.33%;
+    padding: 15px;
+    .card {
+      position: relative;
+      cursor: pointer;
+    }
+  }
+  .title {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .desc {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .image {
+
+  }
+}

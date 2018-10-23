@@ -1,3 +1,15 @@
-<p>
-  donuts works!
-</p>
+<div class="content">
+    <div class="donut-card" *ngFor="let donut of list">
+      <div class="card mat-elevation-z1" matRipple>
+        <mat-card>
+          <mat-card-header class="header">
+            <mat-card-title class="title">{{ donut.title }}</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image class="image" [src]="donut.imageUrl">
+          <mat-card-content>
+            <p class="desc">{{ donut.desc }}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>

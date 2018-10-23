@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlacesComponent implements OnInit {
 
-  constructor() { }
+  list: any[] = [];
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
+    this.getPlaces();
+  }
+
+  getPlaces(): void {
+    this.http.get('assets/json/places-original.json').subscribe((response: any[]) => {
+      this.list = response;
+    });
   }
 
 }

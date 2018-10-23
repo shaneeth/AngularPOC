@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DonutsComponent implements OnInit {
 
-  constructor() { }
+  list: any[] = [];
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
+    this.getDonuts();
   }
 
+  getDonuts(): void {
+    this.http.get('assets/json/donuts-original.json').subscribe((response: any[]) => {
+      this.list = response;
+    });
+  }
 }
