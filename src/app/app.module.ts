@@ -1,5 +1,3 @@
-import { BikesModule } from './../../projects/bikes-app/src/app/bikes/bikes.module';
-import { BikesComponent } from './../../projects/bikes-app/src/app/bikes/bikes.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -19,6 +17,13 @@ import { PlacesComponent } from './places/places.component';
 import { HttpClientModule } from '@angular/common/http';
 
 const appRoutes: Routes = [
+  {
+    path: 'bikes',
+    loadChildren: './bikes-wrap/bikes-wrap.module#BikesWrapModule',
+    data: {
+      title: 'Bikes'
+    }
+  },
   {
     path: 'donuts',
     component: DonutsComponent,
@@ -57,7 +62,6 @@ const appRoutes: Routes = [
     MatListModule,
     MatCardModule,
     MatRippleModule,
-    BikesModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],

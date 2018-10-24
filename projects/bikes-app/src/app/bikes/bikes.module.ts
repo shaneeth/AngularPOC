@@ -1,4 +1,4 @@
-import { Routes, RouterModule } from '@angular/router';
+import { Routes, RouterModule, Router } from '@angular/router';
 import {
   MatSidenavModule,
   MatToolbarModule,
@@ -6,7 +6,8 @@ import {
   MatIconModule,
   MatListModule,
   MatCardModule,
-  MatRippleModule } from '@angular/material';
+  MatRippleModule,
+  MatTabsModule} from '@angular/material';
 import { BikeDetailComponent } from './bike-detail/bike-detail.component';
 import { BikesComponent } from './bikes.component';
 import { NgModule } from '@angular/core';
@@ -14,16 +15,12 @@ import { CommonModule } from '@angular/common';
 
 const routes: Routes = [
   {
-    path: 'bikes',
-    component: BikesComponent,
-    data: {
-      title: 'Bikes'
-    }
+    path: '',
+    component: BikesComponent
   },
   {
-    path: '',
-    redirectTo: '/bikes',
-    pathMatch: 'full'
+    path: ':id',
+    component: BikeDetailComponent
   }
 ];
 
@@ -37,7 +34,8 @@ const routes: Routes = [
     MatListModule,
     MatCardModule,
     MatRippleModule,
-    RouterModule.forRoot(routes)
+    MatTabsModule,
+    RouterModule.forChild(routes)
   ],
   declarations: [
     BikesComponent,
@@ -45,7 +43,9 @@ const routes: Routes = [
   ],
   exports: [
     BikesComponent,
-    BikeDetailComponent
+    BikeDetailComponent,
+    RouterModule
   ]
 })
 export class BikesModule { }
+

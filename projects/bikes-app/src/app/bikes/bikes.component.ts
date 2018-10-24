@@ -1,6 +1,6 @@
-import { ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
+import { BikesService } from './bikes.service';
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-bikes',
@@ -10,16 +10,21 @@ import { HttpClient } from '@angular/common/http';
 export class BikesComponent implements OnInit {
 
   list: any[] = [];
-  constructor(private http: HttpClient) { }
+  constructor(private router: Router, private activatedRoute: ActivatedRoute, private bikesService: BikesService) { }
 
   ngOnInit() {
     this.getBikes();
   }
 
   getBikes(): void {
-    this.http.get('assets/json/bikes-original.json').subscribe((response: any[]) => {
-      this.list = response;
+    this.bikesService.getList().subscribe((data: any[]) => {
+      this.list = data;
     });
   }
 
+  navigateToDetails(id: number): void {
+    this.router.navigate([`./${id}`], {
+      relativeTo: this.activatedRoute
+    });
+  }
 }

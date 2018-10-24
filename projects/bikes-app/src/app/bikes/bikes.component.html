@@ -1,6 +1,6 @@
 <div class="content">
   <div class="bike-card" *ngFor="let bike of list">
-    <div class="card mat-elevation-z1" matRipple>
+    <div class="card mat-elevation-z1" matRipple (click)="navigateToDetails(bike.id)">
       <mat-card>
         <mat-card-header class="header">
           <mat-card-title class="title">{{ bike.title }}</mat-card-title>

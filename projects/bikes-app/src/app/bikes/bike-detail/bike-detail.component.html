@@ -1,3 +1,20 @@
-<p>
-  bike-detail works!
-</p>
+<div class="content-details">
+  <button mat-button (click)="navigateBack()" class="back">Back</button>
+  <mat-tab-group [color]="'accent'" [backgroundColor]="'primary'">
+    <mat-tab label="Title">
+      <div class="tab-content">
+          <mat-card class="mat-elevation-z2 title">{{ title }}</mat-card>
+      </div>
+    </mat-tab>
+    <mat-tab label="Description">
+        <div class="tab-content">
+            <mat-card class="mat-elevation-z2 desc">{{ description }}</mat-card>
+        </div>
+    </mat-tab>
+    <mat-tab label="Image">
+        <div class="tab-content">
+            <img *ngIf="imageUrl" class="mat-elevation-z2 image" [src]="imageUrl" >
+        </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>
