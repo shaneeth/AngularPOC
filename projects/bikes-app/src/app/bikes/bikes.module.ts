@@ -1,17 +1,9 @@
-import { Routes, RouterModule, Router } from '@angular/router';
-import {
-  MatSidenavModule,
-  MatToolbarModule,
-  MatButtonModule,
-  MatIconModule,
-  MatListModule,
-  MatCardModule,
-  MatRippleModule,
-  MatTabsModule} from '@angular/material';
+import { Routes, RouterModule } from '@angular/router';
 import { BikeDetailComponent } from './bike-detail/bike-detail.component';
 import { BikesComponent } from './bikes.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatModulesList } from 'common/imports/mat-list';
 
 const routes: Routes = [
   {
@@ -27,14 +19,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     CommonModule,
-    MatSidenavModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
-    MatListModule,
-    MatCardModule,
-    MatRippleModule,
-    MatTabsModule,
+    ...MatModulesList,
     RouterModule.forChild(routes)
   ],
   declarations: [

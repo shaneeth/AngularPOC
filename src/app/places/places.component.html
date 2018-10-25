@@ -1,6 +1,6 @@
 <div class="content">
   <div class="place-card" *ngFor="let place of list">
-    <div class="card mat-elevation-z1" matRipple>
+    <div class="card mat-elevation-z1" matRipple (click)="navigateToDetails(place.id)">
       <mat-card>
         <mat-card-header class="header">
           <mat-card-title class="title">{{ place.title }}</mat-card-title>

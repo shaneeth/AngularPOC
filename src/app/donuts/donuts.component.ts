@@ -1,23 +1,21 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Entity } from 'common/component/Entity';
+import { Router, ActivatedRoute } from '@angular/router';
+import { DonutsService } from './donuts.service';
 
 @Component({
   selector: 'app-donuts',
   templateUrl: './donuts.component.html',
   styleUrls: ['./donuts.component.scss']
 })
-export class DonutsComponent implements OnInit {
+export class DonutsComponent extends Entity implements OnInit {
 
-  list: any[] = [];
-  constructor(private http: HttpClient) { }
-
-  ngOnInit() {
-    this.getDonuts();
+  constructor(private router: Router, private activatedRoute: ActivatedRoute, private donutsService: DonutsService) {
+    super(router, activatedRoute, donutsService);
   }
 
-  getDonuts(): void {
-    this.http.get('assets/json/donuts-original.json').subscribe((response: any[]) => {
-      this.list = response;
-    });
+  ngOnInit() {
+    this.getList();
   }
 }

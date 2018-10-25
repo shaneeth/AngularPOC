@@ -1,27 +1,27 @@
-import { ActivatedRoute, Router } from '@angular/router';
-import { BikesService } from './../bikes.service';
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+import { DonutsService } from '../donuts.service';
 
 @Component({
-  selector: 'app-bike-detail',
-  templateUrl: './bike-detail.component.html',
-  styleUrls: ['./bike-detail.component.scss']
+  selector: 'app-donut-detail',
+  templateUrl: './donut-detail.component.html',
+  styleUrls: ['./donut-detail.component.scss']
 })
-export class BikeDetailComponent implements OnInit {
+export class DonutDetailComponent implements OnInit {
 
   id: number;
   title: string;
   description: string;
   imageUrl: string;
 
-  constructor(private router: Router, private activatedRoute: ActivatedRoute, private bikesService: BikesService) { }
+  constructor(private router: Router, private activatedRoute: ActivatedRoute, private donutService: DonutsService) { }
 
   ngOnInit() {
     this.getDetails(this.activatedRoute.snapshot.params.id);
   }
 
   getDetails(id: number): void {
-    this.bikesService.getDetails(id).subscribe((data: any) => {
+    this.donutService.getDetails(id).subscribe((data: any) => {
       if (data) {
         this.title = data.title;
         this.description  = data.desc;

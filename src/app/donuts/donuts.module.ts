@@ -1,18 +1,18 @@
-import { RouterModule, Routes } from '@angular/router';
+import { DonutDetailComponent } from './donut-detail/donut-detail.component';
+import { DonutsComponent } from './donuts.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PlacesComponent } from './places.component';
-import { PlaceDetailComponent } from './place-detail/place-detail.component';
+import { Routes, RouterModule } from '@angular/router';
 import { MatModulesList } from 'common/imports/mat-list';
 
 const routes: Routes = [
   {
     path: '',
-    component: PlacesComponent
+    component: DonutsComponent
   },
   {
     path: ':id',
-    component: PlaceDetailComponent
+    component: DonutDetailComponent
   }
 ];
 
@@ -23,8 +23,8 @@ const routes: Routes = [
     RouterModule.forChild(routes)
   ],
   declarations: [
-    PlacesComponent,
-    PlaceDetailComponent
+    DonutsComponent,
+    DonutDetailComponent
   ]
 })
-export class PlacesModule { }
+export class DonutsModule { }

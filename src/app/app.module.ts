@@ -4,17 +4,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {
-  MatSidenavModule,
-  MatToolbarModule,
-  MatButtonModule,
-  MatIconModule,
-  MatListModule,
-  MatCardModule,
-  MatRippleModule } from '@angular/material';
-import { DonutsComponent } from './donuts/donuts.component';
-import { PlacesComponent } from './places/places.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MatModulesList } from 'common/imports/mat-list';
 
 const appRoutes: Routes = [
   {
@@ -26,14 +17,14 @@ const appRoutes: Routes = [
   },
   {
     path: 'donuts',
-    component: DonutsComponent,
+    loadChildren: './donuts/donuts.module#DonutsModule',
     data: {
       title: 'Donuts'
     }
   },
   {
     path: 'places',
-    component: PlacesComponent,
+    loadChildren: './places/places.module#PlacesModule',
     data: {
       title: 'Places'
     }
@@ -47,21 +38,13 @@ const appRoutes: Routes = [
 
 @NgModule({
   declarations: [
-    AppComponent,
-    DonutsComponent,
-    PlacesComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    MatSidenavModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
-    MatListModule,
-    MatCardModule,
-    MatRippleModule,
+    ...MatModulesList,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],

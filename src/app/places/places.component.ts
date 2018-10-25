@@ -1,24 +1,21 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+import { PlacesService } from './places.service';
+import { Entity } from 'common/component/Entity';
 
 @Component({
   selector: 'app-places',
   templateUrl: './places.component.html',
   styleUrls: ['./places.component.scss']
 })
-export class PlacesComponent implements OnInit {
+export class PlacesComponent extends Entity implements OnInit {
 
-  list: any[] = [];
-  constructor(private http: HttpClient) { }
-
-  ngOnInit() {
-    this.getPlaces();
+  constructor(private router: Router, private activatedRoute: ActivatedRoute, private placesService: PlacesService) {
+    super(router, activatedRoute, placesService);
   }
 
-  getPlaces(): void {
-    this.http.get('assets/json/places-original.json').subscribe((response: any[]) => {
-      this.list = response;
-    });
+  ngOnInit(): void {
+    this.getList();
   }
-
 }
